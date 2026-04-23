@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ArrowRightIcon, CheckIcon, HeartPulseIcon, ShieldIcon, FileTextIcon, ActivityIcon, DatabaseIcon, MonitorIcon, UsersIcon, LockIcon, ZapIcon } from "./Icons";
+import { ArrowRightIcon, CheckIcon, ShieldIcon, FileTextIcon, ActivityIcon, DatabaseIcon, MonitorIcon, UsersIcon, LockIcon, ZapIcon } from "./Icons";
 
 const Img = ({ src, alt, style }) => {
   const [loaded, setLoaded] = useState(false);

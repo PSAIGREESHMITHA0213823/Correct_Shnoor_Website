@@ -1,6 +1,6 @@
 
 import React, { useState, useRef, useEffect } from "react";
-import { ArrowRightIcon, CheckIcon, LaptopIcon, CloudIcon, CpuIcon, BarChartIcon, LifeBuoyIcon, WorldIcon, AnchorIcon, ShieldIcon, SettingsIcon, LockIcon } from "./Icons";
+import { ArrowRightIcon, LaptopIcon, CloudIcon, CpuIcon, BarChartIcon, LifeBuoyIcon, WorldIcon, AnchorIcon, ShieldIcon, SettingsIcon, LockIcon } from "./Icons";
 
 const useReveal = (threshold = 0.12) => {
   const ref = useRef(null);

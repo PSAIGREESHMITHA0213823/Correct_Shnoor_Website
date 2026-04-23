@@ -16,10 +16,10 @@ const GraduationCapIcon= ({ size, color }) => <Icon size={size} color={color} d=
 const ShieldIcon       = ({ size, color }) => <Icon size={size} color={color} d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />;
 const AlertIcon        = ({ size, color }) => <Icon size={size} color={color} d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0zM12 9v4M12 17h.01" />;
 const CheckIcon        = ({ size, color }) => <Icon size={size} color={color} d="M20 6L9 17l-5-5" />;
-const ExternalLinkIcon = ({ size, color }) => <Icon size={size} color={color} d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />;
+
 const BriefcaseIcon    = ({ size, color }) => <Icon size={size} color={color} d="M20 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />;
 const SearchIcon       = ({ size, color }) => <Icon size={size} color={color} d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />;
-const MailIcon         = ({ size, color }) => <Icon size={size} color={color} d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zM22 6l-10 7L2 6" />;
+
 const ArrowRightIcon   = ({ size, color }) => <Icon size={size} color={color} d="M5 12h14M12 5l7 7-7 7" />;
 
 const Img = ({ src, alt, style }) => {
@@ -32,8 +32,6 @@ const Img = ({ src, alt, style }) => {
     </div>
   );
 };
-
-const APPLY_URL = "https://docs.google.com/forms/d/e/1FAIpQLSdZ2LKiQjrPWlwtx7fjEwA28wWBj3GGnj5DFFI3dJzKEy08XQ/viewform";
 
 const jobs = [
   { title: "Senior Full Stack Developer",    dept: "IT Consulting",        location: "Missouri, USA",   type: "Full-time", salary: "$120k – $160k", tags: ["React","Node.js","AWS"] },
