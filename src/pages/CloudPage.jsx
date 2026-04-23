@@ -1,11 +1,11 @@
 
 import React, { useState } from "react";
 import {
-  ArrowRightIcon, CheckIcon,
-  CloudIcon, BuildingIcon, GlobeIcon,
+  ArrowRightIcon,
+ 
   ServerIcon, ArrowsIcon, SettingsIcon,
   ShieldIcon, BarChartIcon, ActivityIcon,
-  PackageIcon, WorldIcon, DatabaseIcon,
+  PackageIcon, WorldIcon, 
 } from "./Icons";
 
 const Img = ({ src, alt, style }) => {
