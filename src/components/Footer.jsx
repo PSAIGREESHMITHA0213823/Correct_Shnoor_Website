@@ -17,7 +17,7 @@ const Footer = ({ t, setPage }) => {
     { label: "SHNOOR LMS", sub: "Learning & Training Portal", href: "https://lms.shnoor.com", badge: "LMS" },
     { label: "Assessments", sub: "Coding & Technical Tests", href: "https://lms.shnoor.com", badge: "TEST" },
     { label: "Career Portal", sub: "Apply for Open Roles", href: "https://www.shnoor.com/", badge: "JOBS"},
-     { label: "SHNOOR Incoice ", sub: "Smart Invoicing,Without the Hassle Portal", href: "https://www.invoicecloud.in/", badge: "INVO" },
+     { label: "SHNOOR Invoice ", sub: "Smart Invoicing,Without the Hassle Portal", href: "https://www.invoicecloud.in/", badge: "INVO" },
   ];
 
   const contacts = [
