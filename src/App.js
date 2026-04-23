@@ -24,7 +24,7 @@ import BackgroundVerification from "./pages/BackgroundVerification";
 import RecruitersPage from "./pages/RecruitersPage";
 import LatestOpenings from "./pages/LatestOpenings";
 import ScamAwareness from "./pages/ScamAwareness";
-const WHATSAPP_NUMBER  = "919392271152"; 
+const WHATSAPP_NUMBER  = "919429694298"; 
 const WHATSAPP_MESSAGE = "Hello! I'd like to know more about your services.";
 
 function FloatingButtons() {
